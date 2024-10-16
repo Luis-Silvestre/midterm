@@ -1,0 +1,99 @@
+header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10ch;
+    position: relative;
+    top:40px;
+    z-index: 3;
+}
+.cuisine{
+    width: 275px;
+    height: 300px;
+    border: 3px solid green;
+    border-radius: 15px;
+    position: absolute;
+    background-image: url(american.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    top:50px; 
+}
+.cuisine h2{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+
+.cuisine_container1{
+    width:99%;
+    height:500px;
+    background-color: aquamarine;
+    position:absolute;
+    border-radius: 30px;
+    top:100px;
+}
+.cuisine_container1 p{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+}
+.back_home{
+    position: absolute;
+    background-image: url(home.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    padding-bottom: 50px;
+    width: 50px;
+    height:0px;
+    top: -10px;
+    left:10px;
+    z-index: 5;
+}
+.location {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    top: 50px;
+    right: 37%;
+    width:400px;
+    height:auto
+}
+.location p{
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    margin: 5px 0;
+    position: relative;
+}
+footer{
+    position: absolute;
+    bottom: 50px;
+    left:15px;
+    width: 100%;
+    height: auto;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
